@@ -8,32 +8,11 @@ import ssl
 import asyncio
 
 from datetime import timedelta
-# from typing import Any, Dict, Optional
 
 import async_timeout
 import aiocasambi
 
-# from aiocasambi.consts import (
-#     SIGNAL_DATA,
-#     STATE_RUNNING,
-#     SIGNAL_CONNECTION_STATE,
-#     STATE_DISCONNECTED,
-#     STATE_STOPPED,
-#     SIGNAL_UNIT_PULL_UPDATE,
-# )
-
-from homeassistant.components.light import (
-    ATTR_BRIGHTNESS,
-    # SUPPORT_BRIGHTNESS,
-    # LightEntity,
-    # ATTR_COLOR_TEMP,
-    # ATTR_RGB_COLOR,
-    # ATTR_RGBW_COLOR,
-    # COLOR_MODE_BRIGHTNESS,
-    # COLOR_MODE_COLOR_TEMP,
-    # COLOR_MODE_RGB,
-    # COLOR_MODE_RGBW,
-)
+from homeassistant.components.light import ATTR_BRIGHTNESS
 
 try:
     from homeassistant.components.light import ATTR_DISTRIBUTION
