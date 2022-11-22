@@ -21,9 +21,7 @@ try:
 except ImportError:
     ATTR_DISTRIBUTION = "distribution"
 
-from homeassistant.helpers.update_coordinator import (
-    CoordinatorEntity,
-)
+from homeassistant.helpers.update_coordinator import CoordinatorEntity
 
 from homeassistant.const import ATTR_NAME
 
